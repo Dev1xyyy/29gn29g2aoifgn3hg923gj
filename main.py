@@ -7,10 +7,10 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # --- КОНФИГУРАЦИЯ ---
 # Вставь сюда новый токен, если сгенерировал новый (рекомендуется!)
-TOKEN = "8407876508:AAFqQxli2u2-LchbfshIAAjXvDJPiwqPRlY"
+TOKEN = "8584459028:AAH-w1zry_dsJU8n8zBg1gtJsKSVcMgreqQ"
 
 # Список ID админов (числа, не строки)
-ADMIN_IDS = [7728878522, 8494119732]
+ADMIN_IDS = [7728878522, 8301914167]
 
 # Включаем логирование, чтобы видеть ошибки в консоли
 logging.basicConfig(level=logging.INFO)
@@ -108,4 +108,5 @@ if __name__ == "__main__":
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
+
         print("Бот остановлен")
