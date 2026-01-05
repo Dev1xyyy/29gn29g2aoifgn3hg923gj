@@ -10,7 +10,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 TOKEN = "8584459028:AAH-w1zry_dsJU8n8zBg1gtJsKSVcMgreqQ"
 
 # Список ID админов (числа, не строки)
-ADMIN_IDS = [7728878522, 8301914167]
+ADMIN_IDS = [7728878522, 1156706791]
 
 # Включаем логирование, чтобы видеть ошибки в консоли
 logging.basicConfig(level=logging.INFO)
@@ -110,3 +110,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
 
         print("Бот остановлен")
+
